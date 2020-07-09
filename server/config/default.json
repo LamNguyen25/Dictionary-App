@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://liam009:banana@123@projects-0utor.mongodb.net/dictionary?retryWrites=true&w=majority",
+    "jwtPrivateKey": "098765"
+}
