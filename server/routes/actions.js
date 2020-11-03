@@ -9,7 +9,7 @@ router.post('/addNewWord', async(req, res) => {
         type: req.body.type,
         definition: req.body.definition,
     };
-    console.log("I'm here in the server");
+
     await newWord.save();
     res.send('New word is saved successfully');
 

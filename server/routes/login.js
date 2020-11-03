@@ -10,7 +10,7 @@ const {User}   = require('../models/userModels');
 // Middleware
 const {verifyToken} = require('../middlewares/verify-token');
 
-router.post('/', async (req, res) => {
+router.post('/', async (req, res) => { 
     // Verify Email
     const user = await User.findOne({email: req.body.email});
     
